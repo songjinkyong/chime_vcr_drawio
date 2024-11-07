@@ -1,0 +1,68 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
+  <diagram name="페이지-1" id="cFSCY0tidlCzLEGtGM6G">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pc7ah3_9DVA6RbR4DuFJ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="pc7ah3_9DVA6RbR4DuFJ-23" target="pc7ah3_9DVA6RbR4DuFJ-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pc7ah3_9DVA6RbR4DuFJ-23" value="Container" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pc7ah3_9DVA6RbR4DuFJ-29" value="1. iframe으로 open" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="286" y="120" />
+            </Array>
+            <mxPoint x="80" y="120" as="sourcePoint" />
+            <mxPoint x="475" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pc7ah3_9DVA6RbR4DuFJ-30" value="2. `LISTENER_SETUP` 메세지 전송" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="289" y="220" />
+            </Array>
+            <mxPoint x="475" y="220" as="sourcePoint" />
+            <mxPoint x="80" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pc7ah3_9DVA6RbR4DuFJ-31" value="MessageChannelProvider mount" style="fillColor=#ffff88;strokeColor=#9E916F;" parent="1" vertex="1">
+          <mxGeometry x="372.5" y="140" width="215" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="pc7ah3_9DVA6RbR4DuFJ-32" value="3. `PORT2_INIT` &amp; MessagePort 인스턴스 전송" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="286" y="280" />
+            </Array>
+            <mxPoint x="80" y="280" as="sourcePoint" />
+            <mxPoint x="475" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pc7ah3_9DVA6RbR4DuFJ-33" value="MessagePort 저장" style="curved=1;endArrow=block;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="531.07" y="310" />
+              <mxPoint x="531.07" y="340" />
+            </Array>
+            <mxPoint x="479.9985714285713" y="310" as="sourcePoint" />
+            <mxPoint x="479.9985714285713" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pc7ah3_9DVA6RbR4DuFJ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="pc7ah3_9DVA6RbR4DuFJ-35" target="pc7ah3_9DVA6RbR4DuFJ-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pc7ah3_9DVA6RbR4DuFJ-35" value="Chime app" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pc7ah3_9DVA6RbR4DuFJ-36" value="Container" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="380" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pc7ah3_9DVA6RbR4DuFJ-37" value="Chime app" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="380" width="140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
